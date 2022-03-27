@@ -27,3 +27,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.flex-container {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}

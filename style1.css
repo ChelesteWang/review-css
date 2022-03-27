@@ -1,0 +1,72 @@
+.flex-container1 {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  display: flex;
+}
+
+.left1 {
+  width: 200px;
+  background-color: red;
+}
+
+.right1 {
+  flex: 1;
+  background-color: yellow;
+}
+
+.container1 {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.left2 {
+  width: 200px;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+
+.right2 {
+  background-color: yellow;
+  height: 100%;
+  margin-left: 200px;
+}
+
+.left3{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.right3{
+    height: 100%;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.container2{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.left4{
+    width: 200px;
+    height: 100%;
+    background-color: red;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
+.right4{
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 200px;
+    right: 0;
+}

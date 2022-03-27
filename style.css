@@ -79,3 +79,11 @@
   right: 0;
   margin: auto;
 }
+
+.box7 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    background-clip: content-box;
+    padding: calc(50% - 125px);
+  }

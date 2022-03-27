@@ -5,3 +5,43 @@
   border-right: 200px solid transparent;
   border-left: 200px solid transparent;
 }
+
+.border {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+}
+
+.border::before {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  top: 0;
+  left: 0;
+  content: " ";
+  position: absolute;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}
+
+.border1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  border: 1px solid black;
+  border-image: linear-gradient(transparent 50%, black 50%) 1 1 1 1;
+}
+
+/* .border1::before {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  top: 0;
+  left: 0;
+  content: " ";
+  position: absolute;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+} */

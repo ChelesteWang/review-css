@@ -1,0 +1,19 @@
+#box {
+}
+
+#card {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: white;
+  transition: all 30s 1s ease;
+}
+
+#card:hover {
+  background-color: #dd7878;
+  border: 3px solid rgb(136, 37, 37);
+  box-shadow: 1 1 3px rgb(173, 122, 122);
+  transform: translate(50%, 50%) rotate(90deg);
+  width: 40px;
+  height: 30px;
+}

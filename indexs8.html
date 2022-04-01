@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      div,
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        position: absolute;
+        /* border: 1px solid #000; */
+        transform: translate(70px, 50px) skew(10deg);
+        transform-origin: 0 100%;
+      }
+      .card {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        /* border: 1px solid #000; */
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="card">
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
